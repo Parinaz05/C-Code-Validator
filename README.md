@@ -1,51 +1,59 @@
-# C-Code-Validator
+C++ Code Validator
+A C++ project demonstrating Object-Oriented Programming, Exception Handling, and Dynamic Memory Allocation.
 
-A simple yet functional C++ program that checks user-entered code for common syntax errors like missing semicolons, unmatched braces, or missing #include and main() statements. The validator uses Object-Oriented Programming (OOP) principles, exception handling, and dynamic memory allocation to ensure clean and error-free code input.
+**Developer:** Parinaz Kaur  
+**UID:** 24BCD10029 
+**Section:** BCD1-1 
+**Instructor:** Ms. Suchi Sharma  
+**Course:** BCA (Data Science – Hons. with Research)  
+**Institution:** Chandigarh University  
 
-## Features
+## Overview
 
-Checks for essential C++ syntax elements (#include, main(), braces, semicolons).
+The C++ Code Validator is a console-based tool that checks user-inputted C++ programs for basic syntax errors.
+It ensures that essential syntax elements like #include statements, main() function, semicolons, and braces are properly used before accepting the code as valid.
+The project emphasizes OOP principles, error handling, and interactive user feedback.
 
-Provides detailed error messages and prompts user until code is correct.
+## Project Objective
 
-Demonstrates OOP concepts – classes, inheritance, polymorphism.
+- To design a simple C++ program that validates code syntax dynamically.
+- To implement inheritance and polymorphism through validator classes.
+- To demonstrate practical use of exception handling for error detection.
+- To create an interactive console tool that promotes learning through correction.
 
-Uses exception handling to detect and report syntax issues.
-
-Dynamic memory allocation for user input handling.
-
-Clean and modular structure for easy understanding and future expansion.
-
-## Tech Stack
+## Technology Stack
 
 Language: C++
 
-Concepts Used: Classes, Objects, Inheritance, Polymorphism, Exception Handling, Dynamic Memory
+## Core Concepts:
 
-## How It Works
+Classes and Objects
 
-Run the program.
+- Inheritance & Polymorphism
+- Exception Handling
+- Dynamic Memory Allocation
+- Control Structures & Loops
+- STL (Strings & Vectors)
 
-Paste your C++ code (end input with END).
+## Program Flow
 
-The validator checks for syntax issues.
-
-If errors exist, you get feedback and can try again.
-
-Program ends only when valid code is entered.
-
-## Learning Outcomes
-
-Understand how compilers validate syntax at a basic level.
-
-Strengthen knowledge of OOP design and exception handling in C++.
-
-Improve debugging and code correctness skills.
+- User enters C++ code line by line.
+- Code is stored dynamically using vector<string>.
+- Validator checks for missing semicolons, unmatched braces, and essential keywords
+- If any error is found, an exception is thrown and displayed.
+- The program loops until valid syntax is detected.
+- Once validated, the program confirms success and exits.
 
 ## Future Enhancements
 
-Add advanced syntax checks (nested structures, data types, etc.).
+- Expand to detect more syntax errors and logical issues.
+- Add GUI support for user-friendly interaction.
+- Highlight specific error lines in color-coded format.
+- Integrate file-based input for larger code validation.
 
-Introduce GUI for interactive validation using Qt or Tkinter (via Python bridge).
+## Key Learnings
 
-Implement color-coded output and code suggestions.
+- Application of OOP principles (abstraction, inheritance, polymorphism).
+- Use of exception handling to control error flow.
+- Importance of input validation and user feedback in programming tools.
+- Understanding of dynamic memory management and STL usage.
